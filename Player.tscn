@@ -8,14 +8,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
-"loop": true,
-"name": "walk",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 1 ), ExtResource( 4 ) ],
 "loop": true,
 "name": "up",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "walk",
 "speed": 5.0
 } ]
 
@@ -24,7 +24,7 @@ radius = 25.0
 height = 18.0
 
 [node name="Player" type="Area2D"]
-position = Vector2( -27, 17 )
+position = Vector2( 197, 207 )
 script = ExtResource( 5 )
 __meta__ = {
 "_edit_group_": true
