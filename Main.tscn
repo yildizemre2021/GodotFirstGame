@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Main.cs" type="Script" id=1]
+[ext_resource path="res://Mob.tscn" type="PackedScene" id=2]
 
 [sub_resource type="Curve2D" id=1]
 _data = {
@@ -12,6 +13,7 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_horizontal_guides_": [ -4756.0 ]
 }
+MobScene = ExtResource( 2 )
 
 [node name="MobTimer" type="Timer" parent="."]
 wait_time = 0.5
